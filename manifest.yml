@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pb1-Simple-Java1
+  host: pb1-simple-java1
+  disk_quota: 1024M
